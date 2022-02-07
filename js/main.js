@@ -38,12 +38,12 @@ function validarUsuario (){
   }
 }
 
-button.addEventListener("click", iniciarSesion);
+button.addEventListener("click", iniciarSesion); 
 
 
 
 
-form.addEventListener("submit", e=>{
+form.addEventListener ("submit", e=>{
     e.preventDefault()
     let warnings = ""
     let entrar = false
